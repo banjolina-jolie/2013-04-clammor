@@ -4,6 +4,8 @@ class Comments < ActiveRecord::Migration
       t.string :content
       t.integer :post_id
       t.integer :user_id
+      # t.string :post
+      # t.string :user
       t.timestamps
     end
   end

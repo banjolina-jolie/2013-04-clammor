@@ -1,6 +1,7 @@
 class Subscription < ActiveRecord::Base
   # TODO Implement Subscription associations. See subscription_spec.rb for specification.
-
+ 
+  #validate :active_customer, :on => :create
   # TODO Implement a Subscription custom validation. See subscription_spec.rb for specification.
   
   def renew_date_is_valid_datetime
