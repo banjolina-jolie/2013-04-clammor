@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   has_many :subscriptions
   has_many :posts
   has_many :comments
-  has_one :status
+  has_one :status, :dependent => :destroy
   has_many :groups, :through => :subscriptions
 
   # TODO Implement validation for User model. See user_spec.rb for specification.
