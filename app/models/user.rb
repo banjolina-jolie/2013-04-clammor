@@ -6,6 +6,8 @@ class User < ActiveRecord::Base
   has_many :comments
   has_one :status, :dependent => :destroy
   has_many :groups, :through => :subscriptions
+  has_many :relationships
+
 
   # TODO Implement validation for User model. See user_spec.rb for specification.
   validates :name, :presence => true

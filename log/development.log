@@ -1108,3 +1108,4 @@ Connecting to database specified by database.yml
   [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130529182851')[0m
   [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130529190015')
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
